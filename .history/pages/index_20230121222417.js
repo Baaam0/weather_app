@@ -60,12 +60,12 @@ export default function Home() {
           {data.name} 
         </div>
 
-
         <div className={styles.card1}> 
         {
           weather && weather.map((w, index) => {
             return (
             <div key={index} className={styles.card2}>
+           
               <div>{w.main}</div>
               <div>{w.description}</div>
             </div>

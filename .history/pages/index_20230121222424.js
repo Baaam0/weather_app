@@ -60,6 +60,7 @@ export default function Home() {
           {data.name} 
         </div>
 
+        <div>{errorMessage}</div>
 
         <div className={styles.card1}> 
         {

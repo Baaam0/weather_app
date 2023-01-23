@@ -58,8 +58,7 @@ export default function Home() {
         />
         <div className={styles.title}>
           {data.name} 
-        </div>
-
+        </div>{errorMessage}
 
         <div className={styles.card1}> 
         {

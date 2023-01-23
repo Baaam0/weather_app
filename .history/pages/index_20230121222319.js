@@ -57,9 +57,8 @@ export default function Home() {
           type="text"
         />
         <div className={styles.title}>
-          {data.name} 
+          {data.name} {}
         </div>
-
 
         <div className={styles.card1}> 
         {
